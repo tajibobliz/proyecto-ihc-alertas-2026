@@ -25,3 +25,20 @@ portales meteorológicos y no tiene formación técnica.
 
 Usuarios secundarios (fuera del alcance v1): viviendas de losa,
 departamentos en altura, responsables de obras de construcción.
+
+## Contexto
+¿Dónde y cuándo ocurre?
+
+En la vivienda, en las horas previas a un evento de viento fuerte
+(temporada de surazos y vientos, con episodios severos registrados
+en julio de 2026). El aviso oficial suele emitirse con varias horas
+de anticipación. La persona está trabajando o fuera de casa cuando
+se emite, y solo puede actuar al llegar. La ventana útil de acción
+es corta y no está señalizada en ningún lado.
+
+## Tarea
+¿Qué intenta hacer el usuario?
+
+Decidir y ejecutar, en el tiempo que le queda antes del evento, las
+acciones de protección que corresponden a su vivienda, sin tener
+conocimiento técnico ni saber interpretar km/h o colores de alerta.
