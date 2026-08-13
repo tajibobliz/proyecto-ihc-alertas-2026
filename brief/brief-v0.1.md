@@ -67,3 +67,26 @@ contexto del usuario.
   acciones
 - Fuera de v1: reporte de daños, mapa colaborativo, cuentas de
   usuario, otros eventos climáticos
+
+  ## Fuentes de información
+- Dato meteorológico: API abierta (Open-Meteo u similar). Senamhi
+  Bolivia no expone API pública; sus datos se solicitan por trámite
+  presencial.
+- Contenido de las acciones: recomendaciones oficiales de Senamhi,
+  Defensa Civil y la Alcaldía Municipal.
+- Para pruebas de interfaz se pueden usar datos simulados.
+
+## Cómo sabremos si funciona
+- Comprensión: el usuario identifica correctamente si el aviso le
+  afecta y con cuánto tiempo cuenta.
+- Acción: ejecuta al menos una acción preventiva.
+- Oportunidad: se entera con anticipación suficiente para actuar.
+
+Limitación declarada: en este ciclo no es posible medir reducción
+real de daños; eso requiere eventos reales y una muestra amplia.
+
+## Supuestos por validar
+1. Que las personas no se enteran a tiempo del aviso oficial.
+2. Que no traducen la alerta técnica en acciones concretas.
+3. Que existe una ventana de tiempo suficiente para actuar.
+
