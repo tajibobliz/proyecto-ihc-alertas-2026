@@ -42,3 +42,28 @@ es corta y no está señalizada en ningún lado.
 Decidir y ejecutar, en el tiempo que le queda antes del evento, las
 acciones de protección que corresponden a su vivienda, sin tener
 conocimiento técnico ni saber interpretar km/h o colores de alerta.
+
+## Idea inicial
+¿Qué solución imaginamos por ahora?
+
+Una aplicación móvil que recibe el dato de viento de una fuente
+meteorológica, lo cruza con la ubicación y el perfil de vivienda del
+usuario, y entrega una notificación con:
+- si le afecta y desde qué hora
+- cuánto tiempo le queda
+- una lista corta de acciones concretas y verificables, con apoyo
+  visual
+
+Las acciones no se inventan: se derivan de las recomendaciones
+oficiales de Senamhi y Defensa Civil, traducidas a lenguaje y
+contexto del usuario.
+
+## Alcance
+¿Qué parte pequeña abordaremos primero?
+
+- Un solo tipo de evento: viento fuerte
+- Un solo perfil de usuario: hogar con techo de calamina
+- Un solo flujo: recibir alerta → entender riesgo → ver y marcar
+  acciones
+- Fuera de v1: reporte de daños, mapa colaborativo, cuentas de
+  usuario, otros eventos climáticos
